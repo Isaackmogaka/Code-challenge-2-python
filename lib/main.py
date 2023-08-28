@@ -34,5 +34,8 @@ for restaurant in Restaurant.all():
 
     # Retrieving and printing reviews
 for review in Review.all():
-        print(f"{review.customer().full_name()} reviewed {review.restaurant().name()} with a rating of {review.rating()}")
+        print(f"{review.customer().full_name} reviewed {review.restaurant().name} with a rating of {review.rating()}")
+
+#pythom3 lib/main.py
+
 
