@@ -56,7 +56,7 @@ class Customer:
                 return customer
         return None
 
-    # Class method to find all customers with a given name
+    # Class methods to find all customers with a given name
     @classmethod
     def find_all_by_given_name(cls, name):
         matching_customers = []
