@@ -9,7 +9,7 @@
 - Licence
 - Authors Info
 ## DescriptionAuthors Info
-- <p>This projet is basically about a backend system that relates Customers, Restaurant and there Reviews. The customers   </p>
+- <p>This projet is basically about a backend system that relates Customers, Restaurant and there Reviews. The customers make reviews for the restaurant and rate them. So the code in this particular code challenge is trying to impliment solution of this relations of the diffrent classes.</p>
 ## Technologies used 
 - This webpage was developed using:
    - Python - which has been used to come up with the fucntions to generate returns and solve the problems.

@@ -2,7 +2,6 @@ class Restaurant:
     all_restaurants = []
 
     def __init__(self, name):
-        # self.restaurant_name = name
         self.name = name
         Restaurant.all_restaurants.append(self)
         print(f"Restaurant '{self.name}' created.")
