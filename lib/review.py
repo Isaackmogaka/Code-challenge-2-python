@@ -12,7 +12,7 @@ class Review:
         # Print a message indicating that a review has been created
         print(f"Review created for {self.restaurant_instance.name} by {self.customer_instance.full_name()}. Rating: {self.rating_value}")
 
-    # Class method to get a list of all review instances
+    # Class methods to get a list of all review instances
     @classmethod
     def all(cls):
         return cls.all_reviews

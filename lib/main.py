@@ -3,7 +3,7 @@ from restaurant import Restaurant
 from review import Review
 
 if __name__ == "__main__":
-    # Create instances of Customer and Restaurant
+    # Create instances of Customers and Restaurants
     customer1 = Customer("Dilan", "Ariana")
     customer2 = Customer("Farouk", "Smithson")
     customer3 = Customer("Peter", "Michael")

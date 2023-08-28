@@ -10,7 +10,7 @@ class Restaurant:
         # Print a message indicating that a restaurant has been created
         print(f"Restaurant '{self.name}' created.")
 
-    # Method to get the name of the restaurant
+    # Methods to get the name of the restaurant
     def name(self):
         return self.restaurant_name
 
