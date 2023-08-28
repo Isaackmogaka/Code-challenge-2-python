@@ -22,7 +22,7 @@ class Restaurant:
     # Method to get all reviews for the restaurant
     def reviews(self):
         restaurant_reviews = []
-        from review import Review  # Import Review here to avoid circular dependency
+        from review import Review  
         for review in Review.all():
             if review.restaurant() == self:
                 restaurant_reviews.append(review)

@@ -31,7 +31,7 @@ class Customer:
     # Method to get a list of restaurants reviewed by the customer
     def restaurants(self):
         reviewed_restaurants = set()
-        from review import Review  # Import Review here to avoid circular dependency
+        from review import Review  
         for review in Review.all():
             if review.customer() == self:
                 reviewed_restaurants.add(review.restaurant())
@@ -39,7 +39,7 @@ class Customer:
 
     # Method to add a review made by the customer
     def add_review(self, restaurant, rating):
-        from review import Review  # Import Review here to avoid circular dependency
+        from review import Review  
         review = Review(self, restaurant, rating)
         # Print a message indicating that a review has been added
         print(f"Review added by {self.full_name} for {restaurant.name}. Rating: {rating}")

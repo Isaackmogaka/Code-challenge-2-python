@@ -19,12 +19,12 @@ class Review:
 
     # Method to get the customer who made the review
     def customer(self):
-        from customer import Customer  # Import Customer here to avoid circular dependency
+        from customer import Customer 
         return self.customer_instance
 
     # Method to get the restaurant that was reviewed
     def restaurant(self):
-        from restaurant import Restaurant  # Import Restaurant here to avoid circular dependency
+        from restaurant import Restaurant 
         return self.restaurant_instance
 
     # Method to get the rating value of the review
