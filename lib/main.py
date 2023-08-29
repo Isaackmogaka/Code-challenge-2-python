@@ -17,7 +17,7 @@ if __name__ == "__main__":
     review1 = Review(customer1, restaurant1, 4)
     review2 = Review(customer2, restaurant2, 5)
     review3 = Review(customer3, restaurant3, 3)
-    review4 = Review(customer4, restaurant4, 4.5)  # Fixed typo and adjusted rating value
+    review4 = Review(customer4, restaurant4, 4) 
 
     # Retrieving and printing customer information
     for customer in Customer.all():
